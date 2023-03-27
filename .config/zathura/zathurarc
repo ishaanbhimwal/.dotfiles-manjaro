@@ -1,0 +1,7 @@
+# enable copy to clipboard
+set selection-clipboard clipboard
+
+# color settings
+set default-bg \#1b2224
+set recolor-lightcolor \#222b2e
+set recolor-keephue "true"

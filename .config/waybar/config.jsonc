@@ -1,0 +1,60 @@
+{
+    "include": [
+        "/usr/share/sway/templates/waybar/config.jsonc"
+    ],
+
+    "modules-left": ["custom/menu", "sway/workspaces", "custom/scratchpad", "sway/window"],
+    "modules-center":["sway/mode"],
+    "modules-right": [
+        // informational
+        "custom/clipboard",
+        "cpu",
+        "memory",
+        "battery",
+        "temperature",
+
+        // connecting
+        "network",
+        "bluetooth",
+
+        // media
+        "custom/playerctl",
+        "idle_inhibitor",
+        "pulseaudio",
+        "backlight",
+
+        // system
+        "custom/adaptive-light",
+        "custom/sunset",
+        "custom/pacman",
+
+        "tray",
+        "clock"
+    ],
+
+    "battery": {
+        "interval": 30,
+        "states": {
+            "warning": 20,
+            "critical": 10
+        },
+        "format-charging": " {capacity}%",
+        "format": "{icon} {capacity}%",
+        "format-icons": ["", "", "", "", "", ""],
+        "tooltip": true
+    },
+    "custom/sunset": {
+        "interval": "once",
+        "tooltip": false,
+        "return-type": "json",
+        "format": "{icon}",
+        "format-icons": {
+            "on": "",
+            "off": ""
+        },
+        "exec": "latitude=12.9 longitude=77.5 /usr/share/sway/scripts/sunset.sh",
+        "on-click": "/usr/share/sway/scripts/sunset.sh toggle; pkill -RTMIN+6 waybar",
+        "exec-if": "/usr/share/sway/scripts/sunset.sh check",
+        "signal": 6
+    }
+}

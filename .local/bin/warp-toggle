@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# check status of warp-cli connection
+status=$(warp-cli status | grep -oP "Status update: \K\w+")
+
+# toggle connection based on its status
+if [ "$status" == "Disconnected" ]; then
+	warp-cli connect
+	notify-send "Warp-CLI Connected!"
+elif [ "$status" == "Connected" ]; then
+	warp-cli disconnect
+	notify-send "Warp-CLI Disconnected!"
+fi

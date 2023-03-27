@@ -1,0 +1,5 @@
+# replace ctrl-r with mcfly
+eval "$(mcfly init zsh)"
+
+# fix delete key 
+bindkey "^[[3~" delete-char

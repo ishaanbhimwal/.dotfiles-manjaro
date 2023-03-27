@@ -1,0 +1,5 @@
+# override VA-API driver
+export LIBVA_DRIVER_NAME=iHD
+
+# override VDPAU driver
+export VDPAU_DRIVER=va_gl
