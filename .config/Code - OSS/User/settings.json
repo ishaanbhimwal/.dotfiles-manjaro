@@ -1,0 +1,8 @@
+{
+  "editor.fontFamily": "'RobotoMono Nerd Font', 'Droid Sans Mono',  monospace, 'Droid Sans Fallback'",
+  "terminal.integrated.fontFamily": "'RobotoMono Nerd Font', monospace",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Bynawers",
+  "python.formatting.provider": "black",
+}
