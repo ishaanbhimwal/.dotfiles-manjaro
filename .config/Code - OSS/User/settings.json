@@ -3,6 +3,6 @@
   "terminal.integrated.fontFamily": "'RobotoMono Nerd Font', monospace",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Bynawers",
+  "workbench.colorTheme": "Gruvbox Dark (Hard)",
   "python.formatting.provider": "black",
 }
