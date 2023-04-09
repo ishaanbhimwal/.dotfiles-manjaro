@@ -5,7 +5,5 @@
   "workbench.startupEditor": "none",
   "workbench.colorTheme": "Bynawers",
   "python.formatting.provider": "black",
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
 }
