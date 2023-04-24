@@ -12,3 +12,8 @@
 #tabbrowser-tabs:not([secondarytext-unsupported]) .tab-label-container {
     height: initial !important; 
 }
+
+#urlbar {
+    font-family: monospace !important;
+    font-size: 11pt !important;
+}
