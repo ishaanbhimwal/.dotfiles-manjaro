@@ -1,9 +1,15 @@
 {
   "editor.fontFamily": "'RobotoMono Nerd Font', 'Droid Sans Mono',  monospace, 'Droid Sans Fallback'",
+  "editor.fontSize": 15,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
   "terminal.integrated.fontFamily": "'RobotoMono Nerd Font', monospace",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Bynawers",
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
   "python.formatting.provider": "black",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  }
 }
