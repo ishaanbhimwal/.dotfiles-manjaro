@@ -1,5 +1,9 @@
 @import "/usr/share/sway/templates/waybar/style.css";
 
+* {
+    font-family: "JetBrainsMono Nerd Font", "RobotoMono Nerd Font", "Roboto Mono", sans-serif;
+}
+
 #window {
     padding-left: 10px;
     padding-right: 10px;
