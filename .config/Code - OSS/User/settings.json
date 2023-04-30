@@ -2,6 +2,7 @@
   "editor.fontFamily": "'JetBrainsMono Nerd Font', 'RobotoMono Nerd Font', 'Droid Sans Mono',  monospace, 'Droid Sans Fallback'",
   "editor.fontSize": 15,
   "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', 'RobotoMono Nerd Font', monospace",
+  "workbench.colorTheme": "Bynawers",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "code-runner.runInTerminal": true,
